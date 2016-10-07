@@ -44,7 +44,7 @@
       <w>480</w>
       <h>264</h>
     </coordinates>
-    <panel_attributes>ExceptionUtils
+    <panel_attributes>AssertUtils
 -exceptionFactory : AbstractExceptionFactory
 --
 _+setExceptionFactory(AbstractExceptionFactory) : void_
