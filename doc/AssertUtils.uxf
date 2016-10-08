@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
   <zoom_level>12</zoom_level>
   <element>
     <type>com.baselet.element.old.element.Class</type>
@@ -186,8 +187,8 @@ _-check() : void_</panel_attributes>
       <w>588</w>
       <h>108</h>
     </coordinates>
-    <panel_attributes>public static void assertThat(Condition condition, String msg) {
-	if (!condition.matches()) {
+    <panel_attributes>public static void assertThat(Matcher matcher, String msg) {
+	if (!matcher.matches()) {
 		check();
 		throw exceptionFactory.getException(msg);
 	}
