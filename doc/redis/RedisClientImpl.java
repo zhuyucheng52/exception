@@ -1,5 +1,3 @@
-package com.netease.ad.b.nex.redis.impl;
-
 import java.io.IOException;
 
 import org.slf4j.Logger;
