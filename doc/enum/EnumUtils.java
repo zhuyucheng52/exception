@@ -17,11 +17,21 @@ public class EnumUtils {
      * @param <T>
      * @return
      */
-    public static <T extends AbstractEnum<Byte>> Map<Byte, String> getEnumByteMap(Class<T> enumClass) {
+    public static <T extends AbstractEnum<Byte>> Map<Byte, String> getValueDescByteMap(Class<T> enumClass) {
         T[] enums = enumClass.getEnumConstants();
         Map<Byte, String> map = new HashMap<Byte, String>(enums.length);
         for (T e : enums) {
             map.put(e.getValue(), e.getDesc());
+        }
+
+        return map;
+    }
+
+    public static <T extends AbstractEnum<Byte>> Map<String, Byte> getDescValueMap(Class<T> enumClass) {
+        T[] enums = enumClass.getEnumConstants();
+        Map<String, Byte> map = new HashMap<String, Byte>(enums.length);
+        for (T e : enums) {
+            map.put(e.getDesc(), e.getValue());
         }
 
         return map;
