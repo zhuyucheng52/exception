@@ -1,6 +1,3 @@
-/*
- * Copyright (c) 1997, 2016, 网易公司版权所有. All rights reserved. 
- */
 package com.netease.ad.b.nex.redis.impl;
 
 import java.io.IOException;
@@ -36,7 +33,7 @@ public class RedisClientImpl implements RedisClient {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see com.netease.ad.b.nex.redis.StringRedisClient#set(java.lang.String,
 	 * java.lang.Object)
 	 */
@@ -68,7 +65,7 @@ public class RedisClientImpl implements RedisClient {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see com.netease.ad.b.nex.redis.StringRedisClient#get(java.lang.String,
 	 * java.lang.Class)
 	 */
@@ -98,7 +95,7 @@ public class RedisClientImpl implements RedisClient {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see com.netease.ad.b.nex.redis.StringRedisClient#hset(java.lang.String,
 	 * java.lang.String, java.lang.Object)
 	 */
@@ -130,7 +127,7 @@ public class RedisClientImpl implements RedisClient {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see com.netease.ad.b.nex.redis.StringRedisClient#hget(java.lang.String,
 	 * java.lang.String, java.lang.Class)
 	 */
