@@ -3,6 +3,7 @@
 * You don't need care about what result the method you invoked returns.
 * Let your program looks more clear.
 * More easy to define a enum and get it's description.
+* Return a given default value when value is null, let less if statements in our code.
 
 ---
 
