@@ -1,7 +1,3 @@
-package com.netease.ad.b.nex.util;
-
-import com.netease.ad.b.nex.constant.AbstractEnum;
-
 import java.util.HashMap;
 import java.util.Map;
 
