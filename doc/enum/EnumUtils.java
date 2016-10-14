@@ -1,7 +1,3 @@
-package com.netease.ad.b.nex.util;
-
-import com.netease.ad.b.nex.constant.AbstractEnum;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,7 +13,11 @@ public class EnumUtils {
      * @param <T>
      * @return
      */
+<<<<<<< HEAD
     public static <T extends AbstractEnum<Byte>> Map<Byte, String> getValueDescByteMap(Class<T> enumClass) {
+=======
+    public static <T extends AbstractEnum<Byte>> Map<Byte, String> getValueDescMap(Class<T> enumClass) {
+>>>>>>> 14a5752bca10bbc43d3318f5c573d50552a38502
         T[] enums = enumClass.getEnumConstants();
         Map<Byte, String> map = new HashMap<Byte, String>(enums.length);
         for (T e : enums) {

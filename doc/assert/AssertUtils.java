@@ -1,9 +1,3 @@
-package com.netease.ad.b.nex.util;
-
-import com.netease.ad.b.nex.platform.exception.NexException;
-
-import java.util.Collection;
-
 /**
  * 断言工具类，断言参数结果，如果不符合就抛出NexException异常
  *
